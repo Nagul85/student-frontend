@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color:burlywood;
+  height: 100%;
+  padding-bottom: 2%;
+}
+.maincard{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.card{
+  background-color: black;
+}
+
+.main-component{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  padding : 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.main-segment{
+  width: 100%;
+  text-align: center;
+  height: 75%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  gap :2rem;
+ align-content: space-around;
+  border : 1px solid red;
+  width : 200px;
+  height: 200px;
+  margin : 12px;
+}
+.card-container{
+  display: grid;
+  gap :1rem;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+.text-area-col{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-bar{
+  width: 100%;
+  padding: 17px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+}
+.tech{
+  float: right;
+  position: relative;
+  left: 35%;
+}
+
+
